@@ -1,7 +1,7 @@
 import React from 'react'
 import "./Main.css"
 import img from "../../assets/men.png"
-import { AiOutlineTwitter, AiOutlineInstagram, AiOutlineHome, AiOutlineUser } from 'react-icons/ai';
+import { AiOutlineTwitter, AiOutlineInstagram, AiOutlineHome, AiOutlineUser, AiOutlineMenu } from 'react-icons/ai';
 import { FaFacebookF } from 'react-icons/fa';
 import { BsFillFileTextFill } from 'react-icons/bs';
 import { BiLogoLinkedin, BiLogoTelegram } from 'react-icons/bi';
@@ -27,17 +27,19 @@ function Main() {
           </div>
           <div className="sidebar__bottom">
             <button className='side__btn'> <AiOutlineHome /> Bosh sahifa</button>
-            <button className='side__btn'> <AiOutlineUser /> Bosh sahifa</button>
-            <button className='side__btn'> <BsFillFileTextFill /> Bosh sahifa</button>
+            <button className='side__btn'> <AiOutlineUser /> Biz haqimizda</button>
+            <button className='side__btn'> <BsFillFileTextFill /> Portfolio</button>
           </div>
 
         </div>
+
         <div className="sidebar__left">
-          <div className="hero-container" data-aos="fade-in">
+          <div className="hero-container">
             <div className="mount">
             <h1>Shohruhmirzo No'monjonov</h1>
-            <p>Men Dasturchiman <span className="typed" data-typed-items=" Dasturchiman"></span></p>
+            <p>Frontend Dasturchi</p>
             </div>
+          
           </div>
             <Skils/>
             <Portfolio/>

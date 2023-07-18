@@ -2,8 +2,8 @@
     background: #f5f8fd;
 }
 .soft{
-    height: 70vh;
     margin: 35px auto;
+    border: 1px solid red;
 }
 .portfolio{
     margin: 35px auto;
@@ -41,7 +41,7 @@
   .soft__titol p {
     margin-bottom: 0;
   }
-  
+
   @media screen and (max-width:600px) {
   
     .soft__top {
@@ -56,7 +56,7 @@
     height: auto;
    display: flex;
    align-items: center;
-   justify-content: space-between;
+   justify-content: center;
    flex-wrap: wrap;
     gap: 20px;
 }

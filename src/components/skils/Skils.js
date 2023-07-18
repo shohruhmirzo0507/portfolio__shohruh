@@ -34,7 +34,7 @@ function Skils() {
             <div className="clas__cart">
               <ul>
                 <li> <FcNext /> <strong>Yosh:</strong> <span>18</span></li>
-                <li> <FcNext /> <strong>Daraja:</strong> <span>Junior</span></li>
+                <li> <FcNext /> <strong>Daraja:</strong> <span> Junior</span></li>
                 <li> <FcNext /> <strong>PhEmailone:</strong> <span>shohruhmirzo@.gmail.com</span></li>
               </ul>
             </div>
