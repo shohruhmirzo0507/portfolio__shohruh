@@ -1,0 +1,187 @@
+.main {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sidebar__right {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 300px;
+    transition: all ease-in-out 0.5s;
+    z-index: 9;
+    transition: all 0.5s;
+    padding: 0 15px;
+    background: #040b14;
+    overflow-y: auto;
+}
+
+.sidebar__top {
+    width: 270px;
+    height: 236px;
+    margin: 15px auto;
+    text-align: center;
+    color: white;
+}
+
+.sidebar__bottom {
+    width: 270px;
+    height: 236px;
+    margin: 0px auto;
+    color: white;
+    line-height: 3;
+}
+
+.sidebar__img {
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    margin: 15px auto;
+    display: block;
+    border: 8px solid #2c2f3f;
+}
+
+.icons {
+    display: flex;
+    list-style: none;
+    margin: 10px 0px 0px 30px;
+}
+
+.icons li {
+    font-size: 18px;
+    display: inline-block;
+    background: #212431;
+    color: #fff;
+    line-height: 1;
+    padding: 8px 0;
+    margin-right: 5px;
+    border-radius: 50%;
+    text-align: center;
+    width: 38px;
+    height: 38px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.icons li:hover {
+    background: dodgerblue;
+}
+
+.side__btn {
+    width: 180px;
+    background: none;
+    border: none;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    color: #a8a9b4;
+    padding: 12px 15px;
+    margin-bottom: 8px;
+    transition: 0.3s;
+    font-size: 15px;
+}
+.side__btn svg{
+    font-size: 32px;
+    padding-right: 8px;
+    color: #6f7180;
+    color: #149ddd;
+}
+.side__btn:hover{
+    color: white;
+}
+.sidebar__left{
+    width: 84.5%;
+    margin-left: 15.7%;
+    /* margin-left: 298px; */
+}
+.hero-container{
+  
+    width: 100%;
+    height: 100vh;
+    background: url("https://c0.wallpaperflare.com/preview/231/247/682/5be98e06c77ea.jpg") no-repeat center/cover; 
+}
+/*--------------------------------------------------------------
+# Hero Section
+--------------------------------------------------------------*/
+  
+  .hero-container h1 {
+    margin: 0 0 10px 0;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 56px;
+    color: #fff;
+  }
+  
+  .hero-container p {
+    color: #fff;
+    margin-bottom: 50px;
+    font-size: 26px;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  .hero-container p span {
+    color: #fff;
+    padding-bottom: 4px;
+    letter-spacing: 1px;
+    border-bottom: 3px solid #149ddd;
+  }
+  .mount{
+    width: 55%;
+    line-height: 2;
+    margin: 380px 0px 0px 100px;
+    position: absolute;
+  }
+  @media screen and (max-width:1200px) {
+    .sidebar__right{
+      display: none;
+    }
+    .sidebar__left{
+      width: 100%;
+      margin-left: 0;
+  }
+  .mount h1 {
+    line-height: 1;
+  }
+ 
+  .mount {
+   width: 100%;
+   margin: 250px 0px 0px 0px;
+   padding: 25px;
+  }
+}
+
+@media screen and (max-width:600px) {
+
+.mount h1 {
+  font-size: 28px;
+  line-height: 30px;
+}
+.mount p {
+  font-size: 28px;
+}
+.mount {
+ width: 100%;
+ margin: 300px 0px 0px 0px;
+ padding: 5px;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
